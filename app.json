@@ -1,0 +1,955 @@
+{
+    "versionCode": 14,
+    "versionName": "2.3",
+    "compileSdkVersion": 29,
+    "compileSdkVersionCodename": "10",
+    "package": "com.classengage.android",
+    "platformBuildVersionCode": 29,
+    "platformBuildVersionName": 10,
+    "usesPermissions": [
+        { "name": "android.permission.READ_EXTERNAL_STORAGE" },
+        { "name": "android.permission.READ_CONTACTS" },
+        { "name": "android.permission.VIBRATE" },
+        { "name": "android.permission.CAMERA" },
+        { "name": "android.permission.GET_ACCOUNTS" },
+        { "name": "android.permission.INTERNET" },
+        { "name": "android.permission.WRITE_EXTERNAL_STORAGE" },
+        { "name": "android.permission.WRITE_SETTINGS" },
+        { "name": "android.permission.ACCESS_NETWORK_STATE" },
+        { "name": "android.permission.FOREGROUND_SERVICE" },
+        { "name": "android.permission.WAKE_LOCK" },
+        { "name": "com.google.android.c2dm.permission.RECEIVE" },
+        {
+            "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        },
+        { "name": "android.permission.RECORD_AUDIO" }
+    ],
+    "permissions": [],
+    "permissionTrees": [],
+    "permissionGroups": [],
+    "instrumentation": null,
+    "usesSdk": { "minSdkVersion": 23, "targetSdkVersion": 29 },
+    "usesConfiguration": null,
+    "usesFeatures": [
+        { "name": "android.hardware.camera", "required": false },
+        { "name": "android.hardware.camera.front", "required": false },
+        { "name": "android.hardware.camera.autofocus", "required": false },
+        { "name": "android.hardware.microphone", "required": false }
+    ],
+    "supportsScreens": null,
+    "compatibleScreens": [],
+    "supportsGlTextures": [],
+    "application": {
+        "theme": "resourceId:0x7f130007",
+        "label": "resourceId:0x7f120020",
+        "icon": "resourceId:0x7f080087",
+        "name": "com.classengage.android.ClassEngage",
+        "debuggable": true,
+        "allowBackup": true,
+        "largeHeap": true,
+        "supportsRtl": true,
+        "usesCleartextTraffic": true,
+        "networkSecurityConfig": "resourceId:0x7f150000",
+        "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+        "requestLegacyExternalStorage": true,
+        "activities": [
+            {
+                "name": "com.classengage.android.Student.Activities.CameraActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.CaptureImageActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.OcTestLoadingActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.OcTestReportActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.OcTestAnalysisActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.StoreV1",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.DoubtItemActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.CouponActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.AddFacultyToBatchActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.FacultyPermissionsActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.AssetListActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.LiveActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.OcVideoViewActivity",
+                "configChanges": 1200,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.UploadVideoNewActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.CheckLinkActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.UploadLinkActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.FacultyAdminSettingActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.NotificationsActivityV1",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.TestAnalysisActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.ViewStudentProfileActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.SendNotificationActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.Profile",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.ZoomImageActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.WebViewActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.CourseStudentPurchasedActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.StudentPaymentActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.CourseFacultyGlobalActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.CourseFacultyMineActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.CourseFacultyLocalActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.TestDetailsTutorActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.LoginviaOTPActivity",
+                "screenOrientation": 1,
+                "windowSoftInputMode": 36,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.VideoActivity",
+                "configChanges": 1200,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.LoadingActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.TestReportActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.TestReportActivityOffline",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.TestLeaderboardActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.TestEndedActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.ReattemptTestReportActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.ParentRequestsActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.LeadManagementActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.LeadDetailsActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.LeadManagerActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.AddAccountDetailsActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.MyDoubtsActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.AddLeadActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.StartTestActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.TestAttemptActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.SubmitAssignmentActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.AnnouncementsActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.AddAnnouncementActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.DiscussionThreadActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.PostAnswerActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.BatchActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.AddBatchActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.AddBatchActivity2",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.TutorAssignmentActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.NewPasswordActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.HomeActivity",
+                "screenOrientation": 1,
+                "intentFilters": [
+                    {
+                        "actions": [{ "name": "android.intent.action.VIEW" }],
+                        "categories": [
+                            { "name": "android.intent.category.DEFAULT" },
+                            { "name": "android.intent.category.BROWSABLE" }
+                        ],
+                        "data": [
+                            {
+                                "scheme": "https",
+                                "host": "classengage.com",
+                                "pathPrefix": "/zoom"
+                            }
+                        ]
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.NewSignupActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.ForgotPasswordActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.WelcomeActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.TutorAccountActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.StudentAccountActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.EditProfileActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.MainActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.SplashScreen1",
+                "screenOrientation": 1,
+                "intentFilters": [
+                    {
+                        "actions": [{ "name": "android.intent.action.MAIN" }],
+                        "categories": [
+                            { "name": "android.intent.category.LAUNCHER" }
+                        ],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.OrgSelectionActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.TimetableActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.PlayRecordingActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.SearchCoursesActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.NewLoginActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.UploadNotesActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.NewOnboardingActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.OTPActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.NewOTPActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Shared.Activities.PaywallActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.BatchTutorActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Student.Activities.StudentListActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.classengage.android.Faculty.Activities.MarkAttendanceActivity",
+                "screenOrientation": 1,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f13004a",
+                "name": "com.theartofdev.edmodo.cropper.CropImageActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300f4",
+                "name": "io.intercom.android.sdk.activities.IntercomMessengerActivity",
+                "exported": false,
+                "launchMode": 1,
+                "configChanges": 1152,
+                "windowSoftInputMode": 17,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300f1",
+                "name": "io.intercom.android.sdk.lightbox.LightBoxActivity",
+                "exported": false,
+                "configChanges": 1152,
+                "windowSoftInputMode": 17,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300f2",
+                "name": "io.intercom.android.sdk.activities.IntercomArticleActivity",
+                "exported": false,
+                "launchMode": 1,
+                "windowSoftInputMode": 2,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300f2",
+                "name": "io.intercom.android.sdk.activities.IntercomHelpCenterActivity",
+                "exported": false,
+                "launchMode": 1,
+                "configChanges": 1152,
+                "windowSoftInputMode": 2,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300f5",
+                "name": "io.intercom.android.sdk.activities.IntercomPostActivity",
+                "exported": false,
+                "launchMode": 2,
+                "configChanges": 1152,
+                "windowSoftInputMode": 2,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300f3",
+                "name": "io.intercom.android.sdk.activities.IntercomNoteActivity",
+                "exported": false,
+                "launchMode": 2,
+                "configChanges": 1152,
+                "windowSoftInputMode": 17,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300f2",
+                "name": "io.intercom.android.sdk.activities.IntercomSheetActivity",
+                "exported": false,
+                "launchMode": 1,
+                "configChanges": 1152,
+                "windowSoftInputMode": 2,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300f4",
+                "name": "io.intercom.android.sdk.activities.IntercomVideoActivity",
+                "exported": false,
+                "launchMode": 1,
+                "configChanges": 1152,
+                "windowSoftInputMode": 2,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1302e1",
+                "name": "com.facebook.FacebookActivity",
+                "configChanges": 1456,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.facebook.CustomTabMainActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x1030010",
+                "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+                "exported": false,
+                "excludeFromRecents": true,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1300e2",
+                "name": "com.razorpay.CheckoutActivity",
+                "configChanges": 1200,
+                "intentFilters": [
+                    {
+                        "actions": [{ "name": "android.intent.action.MAIN" }],
+                        "categories": [],
+                        "data": [{ "scheme": "io.rzp", "host": "rzp.io" }]
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x1030010",
+                "name": "com.google.android.gms.common.api.GoogleApiActivity",
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+                "enabled": false,
+                "exported": false,
+                "process": ":playcore_missing_splits_activity",
+                "stateNotNeeded": true,
+                "launchMode": 3,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1302ec",
+                "name": "com.intercom.input.gallery.GalleryInputFullScreenActivity",
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "theme": "resourceId:0x7f1302ec",
+                "name": "com.intercom.input.gallery.GalleryLightBoxActivity",
+                "configChanges": 5504,
+                "intentFilters": [],
+                "metaData": []
+            }
+        ],
+        "activityAliases": [],
+        "launcherActivities": [
+            {
+                "name": "com.classengage.android.Shared.Activities.SplashScreen1",
+                "screenOrientation": 1,
+                "intentFilters": [
+                    {
+                        "actions": [{ "name": "android.intent.action.MAIN" }],
+                        "categories": [
+                            { "name": "android.intent.category.LAUNCHER" }
+                        ],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            }
+        ],
+        "services": [
+            {
+                "name": "com.classengage.android.Shared.Services.PushNotificationsService",
+                "enabled": true,
+                "exported": true,
+                "intentFilters": [
+                    {
+                        "actions": [
+                            { "name": "com.google.firebase.MESSAGING_EVENT" }
+                        ],
+                        "categories": [],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "io.intercom.android.sdk.fcm.IntercomFcmMessengerService",
+                "intentFilters": [
+                    {
+                        "priority": -400,
+                        "actions": [
+                            { "name": "com.google.firebase.MESSAGING_EVENT" },
+                            { "name": "com.google.firebase.INSTANCE_ID_EVENT" }
+                        ],
+                        "categories": [],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.gms.cast.framework.media.MediaNotificationService",
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.gms.cast.framework.ReconnectionService",
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+                "permission": "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION",
+                "exported": true,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.google.firebase.components.ComponentDiscoveryService",
+                "exported": false,
+                "directBootAware": true,
+                "intentFilters": [],
+                "metaData": [
+                    {
+                        "name": "com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar",
+                        "value": "com.google.firebase.components.ComponentRegistrar"
+                    },
+                    {
+                        "name": "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar",
+                        "value": "com.google.firebase.components.ComponentRegistrar"
+                    },
+                    {
+                        "name": "com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar",
+                        "value": "com.google.firebase.components.ComponentRegistrar"
+                    },
+                    {
+                        "name": "com.google.firebase.components:com.google.firebase.iid.Registrar",
+                        "value": "com.google.firebase.components.ComponentRegistrar"
+                    },
+                    {
+                        "name": "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar",
+                        "value": "com.google.firebase.components.ComponentRegistrar"
+                    },
+                    {
+                        "name": "com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar",
+                        "value": "com.google.firebase.components.ComponentRegistrar"
+                    }
+                ]
+            },
+            {
+                "name": "com.google.firebase.messaging.FirebaseMessagingService",
+                "exported": false,
+                "intentFilters": [
+                    {
+                        "priority": -500,
+                        "actions": [
+                            { "name": "com.google.firebase.MESSAGING_EVENT" }
+                        ],
+                        "categories": [],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.gms.measurement.AppMeasurementService",
+                "enabled": true,
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.gms.measurement.AppMeasurementJobService",
+                "permission": "android.permission.BIND_JOB_SERVICE",
+                "enabled": true,
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+                "exported": false,
+                "intentFilters": [],
+                "metaData": [
+                    {
+                        "name": "backend:com.google.android.datatransport.cct.CctBackendFactory",
+                        "value": "cct"
+                    }
+                ]
+            },
+            {
+                "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+                "permission": "android.permission.BIND_JOB_SERVICE",
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            }
+        ],
+        "receivers": [
+            {
+                "name": "com.classengage.android.Shared.BroadcastReceivers.SmsReceiver",
+                "intentFilters": [
+                    {
+                        "actions": [
+                            {
+                                "name": "android.provider.Telephony.SMS_RECEIVED"
+                            }
+                        ],
+                        "categories": [],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "io.intercom.android.sdk.push.IntercomPushBroadcastReceiver",
+                "exported": false,
+                "intentFilters": [
+                    {
+                        "actions": [
+                            {
+                                "name": "io.intercom.android.sdk.INTERCOM_PUSH_OPENED"
+                            }
+                        ],
+                        "categories": [],
+                        "data": []
+                    },
+                    {
+                        "actions": [
+                            {
+                                "name": "io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED"
+                            }
+                        ],
+                        "categories": [],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.gms.cast.framework.media.MediaIntentReceiver",
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.razorpay.RzpTokenReceiver",
+                "intentFilters": [
+                    {
+                        "actions": [{ "name": "rzp.device_token.share" }],
+                        "categories": [],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+                "permission": "com.google.android.c2dm.permission.SEND",
+                "exported": true,
+                "intentFilters": [
+                    {
+                        "actions": [
+                            { "name": "com.google.android.c2dm.intent.RECEIVE" }
+                        ],
+                        "categories": [],
+                        "data": []
+                    }
+                ],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.gms.measurement.AppMeasurementReceiver",
+                "enabled": true,
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            },
+            {
+                "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+                "exported": false,
+                "intentFilters": [],
+                "metaData": []
+            }
+        ],
+        "providers": [
+            {
+                "name": "com.classengage.android.Utils.Misc.ClassengageFileProvider",
+                "exported": false,
+                "authorities": "com.classengage.android.provider",
+                "grantUriPermissions": [],
+                "metaData": [
+                    {
+                        "name": "android.support.FILE_PROVIDER_PATHS",
+                        "resource": "resourceId:0x7f150001"
+                    }
+                ],
+                "pathPermissions": []
+            },
+            {
+                "name": "io.intercom.android.sdk.IntercomInitializeContentProvider",
+                "exported": false,
+                "authorities": "com.classengage.android.IntercomInitializeContentProvider",
+                "grantUriPermissions": [],
+                "metaData": [],
+                "pathPermissions": []
+            },
+            {
+                "name": "com.facebook.internal.FacebookInitProvider",
+                "exported": false,
+                "authorities": "com.classengage.android.FacebookInitProvider",
+                "grantUriPermissions": [],
+                "metaData": [],
+                "pathPermissions": []
+            },
+            {
+                "name": "com.google.firebase.provider.FirebaseInitProvider",
+                "exported": false,
+                "authorities": "com.classengage.android.firebaseinitprovider",
+                "initOrder": 100,
+                "directBootAware": true,
+                "grantUriPermissions": [],
+                "metaData": [],
+                "pathPermissions": []
+            }
+        ],
+        "usesLibraries": []
+    }
+}
